@@ -31,4 +31,4 @@ To test the Expo app on a mobile device, the easiest way is to use the **Expo Go
    ```bash
    npm run expo
 4. After running the command, a QR code will appear in the terminal.
-5. Open the Expo Go app on your mobile device and scan the QR code. This will allow you to test the Expo app on your device.
+5. Scan the QR code with your mobile device. This will allow you to test the Expo app on your device.
