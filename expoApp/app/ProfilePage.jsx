@@ -7,7 +7,7 @@ const ProfilePage = () => {
     const isWeb = Platform.OS === 'web';
 
     const handleEditProfile = () => {
-        // Add your edit profile logic here
+        // Add your edit profile logic here...
         console.log('Edit Profile');
     };
 
