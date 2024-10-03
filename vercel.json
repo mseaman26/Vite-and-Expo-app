@@ -1,7 +1,10 @@
 {
     "builds": [
-      { "src": "viteApp/package.json", "use": "@vercel/static-build" },
-      { "src": "expoapp/package.json", "use": "@vercel/static-build" }
+      {
+        "src": "viteApp/package.json",
+        "use": "@vercel/static-build",
+        "config": { "distDir": "viteApp/dist" }
+      }
     ]
   }
   
