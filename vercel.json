@@ -1,0 +1,7 @@
+{
+    "builds": [
+      { "src": "viteApp/package.json", "use": "@vercel/static-build" },
+      { "src": "expoapp/package.json", "use": "@vercel/static-build" }
+    ]
+  }
+  
