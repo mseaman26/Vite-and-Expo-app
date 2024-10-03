@@ -12,9 +12,6 @@
   "license": "ISC",
   "dependencies": {
   },
-  "workspaces": [
-    "viteApp",
-    "expoapp"
-  ],
+
   "oldInstallScript": "cd viteApp && npm install && cd ../expoapp && npm install"
 }
