@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, Image, Button, StyleSheet, Platform } from 'react-native-web';
-import UniversalLink from '../components/UniversalLink/UniversalLink';
+import UniversalLink from './expoapp/components/UniversalLink/UniversalLink';
 
 const ProfilePage = () => {
 
