@@ -1,3 +1,3 @@
-import HomePage from "../../../index.jsx";
+import HomePage from "@/index.jsx";
 
 export default HomePage;

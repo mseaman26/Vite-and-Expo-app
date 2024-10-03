@@ -7,7 +7,13 @@ export default defineConfig({
     resolve: {
         alias: {
             'react-native$': 'react-native-web', // Alias for React Native,
-            "@": path.resolve(__dirname, "../expoapp"),
+            "@": path.resolve(__dirname, "../expoapp/app"),
+        },
+    },
+    build: {
+        rollupOptions: {
+            // Ensure Vite handles all dependencies and shared modules
+            external: [], // Empty this unless you're explicitly externalizing packages
         },
     },
 });

@@ -6,12 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cd viteApp && npm run dev",
-    "expo": "cd expoapp && npx expo start",
-    "install": "cd viteApp && npm install && cd ../expoapp && npm install"
+    "expo": "cd expoapp && npx expo start"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-
-  }
+  },
+  "workspaces": [
+    "viteApp",
+    "expoapp"
+  ],
+  "oldInstallScript": "cd viteApp && npm install && cd ../expoapp && npm install"
 }
