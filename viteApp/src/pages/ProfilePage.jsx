@@ -1,3 +1,3 @@
-import ProfilePage from "../../../expoapp/app/ProfilePage";
+import ProfilePage from "@/expoapp/app/ProfilePage";
 
 export default ProfilePage;
