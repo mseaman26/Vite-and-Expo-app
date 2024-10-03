@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, StyleSheet, Platform } from 'react-native-web'; // Import from react-native-web
-import UniversalLink from '../components/UniversalLink/UniversalLink';
+import UniversalLink from './expoapp/components/UniversalLink/UniversalLink';
 
 const HomePage = () => {
 
