@@ -1,3 +1,3 @@
-import HomePage from "@/expoapp/app/index.jsx";
+import HomePage from "@/app/index.jsx";
 
 export default HomePage;

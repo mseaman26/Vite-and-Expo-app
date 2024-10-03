@@ -1,3 +1,3 @@
-import ProfilePage from "@/expoapp/app/ProfilePage.jsx";
+import ProfilePage from "@/app/ProfilePage.jsx";
 
 export default ProfilePage;
