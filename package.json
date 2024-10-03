@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cd viteApp && npm run dev",
-    "expo": "cd expoapp && npx expo start"
+    "expo": "cd expoapp && npx expo start",
+    "install": "cd viteApp && npm install && cd expoapp && npm install"
   },
   "author": "",
   "license": "ISC",
